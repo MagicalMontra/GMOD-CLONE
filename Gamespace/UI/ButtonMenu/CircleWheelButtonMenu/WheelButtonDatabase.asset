@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d5f7b2b44a47dea0d0e78b8fba2543, type: 3}
+  m_Name: WheelButtonDatabase
+  m_EditorClassIdentifier: 
+  _datas:
+  - id: Object Edit
+    desc: Modify or move selected object
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8392157, g: 0.29874054, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 34b330443a9a683429efaea830c16457, type: 3}
+  - id: Object Rotate
+    desc: Rotate selected object
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.075649686, g: 0.6415094, b: 0.124251135, a: 1}
+    icon: {fileID: 21300000, guid: 569e864f6a467e14bb128de274ba7b12, type: 3}
+  - id: Object Elevate
+    desc: Modify selected object elevation
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.2021627, g: 0.45914924, b: 0.7264151, a: 1}
+    icon: {fileID: 21300000, guid: 525371c4255cb4d449a201fb903cbfe9, type: 3}
+  - id: Link Action
+    desc: Link this action.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.12148453, g: 0.39093095, b: 0.6603774, a: 1}
+    icon: {fileID: 21300000, guid: 1688ef9b29f158b4fabffa09293904a5, type: 3}
+  - id: Link Management
+    desc: Manage action's links.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8862745, g: 0.51342577, b: 0.14509802, a: 1}
+    icon: {fileID: 21300000, guid: 1688ef9b29f158b4fabffa09293904a5, type: 3}
+  - id: Action Property
+    desc: Open this action property.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8867924, g: 0.70913744, b: 0.14640439, a: 1}
+    icon: {fileID: 21300000, guid: 442be0b75e76e0b42b75f3cfc7040aaf, type: 3}
+  - id: Set Active Action
+    desc: Set this object active.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.31359026, g: 0.7421504, b: 0.8207547, a: 1}
+    icon: {fileID: 21300000, guid: 777019f8e78cce240a46829e3d2121a9, type: 3}
+  - id: Set Disable Action
+    desc: Set this object disable.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8207547, g: 0.15098791, b: 0.26130235, a: 1}
+    icon: {fileID: 21300000, guid: 51bbcf8758719b34bbde5336488efec3, type: 3}
+  - id: Trigger Action
+    desc: Trigger when player reach this area.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 1, g: 0.46219248, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 11abc1ccec8959e40a887d27f3721e36, type: 3}
+  - id: Decimal Equal
+    desc: Check if number with decimal are equal to setting.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 0.764151, b: 0.35880154, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Decimal More Than
+    desc: Check if number with decimal are equal than setting.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 1, g: 0.5694697, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Decimal Less Than
+    desc: Check if number with decimal are less than setting.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 0.5200348, b: 1, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Decimal More Than In Seconds
+    desc: Check if number with decimal are more than setting within seconds.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 1, g: 0, b: 0.72254944, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Decimal Not Equal
+    desc: Check if number with decimal are not equal to setting.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 1, g: 0.17174745, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Decimal Within Range
+    desc: Check if number with decimal are within given range.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 1, b: 0.1484747, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Interactable Set Active
+    desc: Set this interactable active.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 0.5280261, b: 1, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Interactable Set Disable
+    desc: Set this interactable active.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.2791474, g: 0.33613598, b: 0.38679248, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Pull
+    desc: Pull this pullable.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 0.735849, b: 0.19702166, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Show Subtitle
+    desc: 
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.7372549, g: 0.041981917, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Victory
+    desc: 
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.14728989, g: 0.8773585, b: 0.07863116, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Show Gauge
+    desc: Show Gauge when the game end
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.07843139, g: 0.6984885, b: 0.8784314, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Multiply
+    desc: Multiply between math value
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.07843139, g: 0.20525214, b: 0.8784314, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Divide
+    desc: Divide between math value
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8784314, g: 0.07843139, b: 0.7912697, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Addition
+    desc: Addition between math value
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.8784314, g: 0.72514516, b: 0.07843139, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Subtraction
+    desc: Subtraction between math value
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.033018887, g: 0.578371, b: 1, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Numberic
+    desc: Create number to use in the next action
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.033018887, g: 0.578371, b: 1, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Play Particle
+    desc: Play this particle.
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0, g: 0.39430285, b: 0.6886792, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}
+  - id: Stop Particle
+    desc: Stop this particle
+    unlock: 1
+    useCustomColor: 1
+    color: {r: 0.6981132, g: 0.19809702, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 79b924e7dd50a1c4fa6fae28d8e4848e, type: 3}

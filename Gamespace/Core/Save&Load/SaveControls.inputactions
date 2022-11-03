@@ -1,0 +1,33 @@
+{
+    "name": "SaveControls",
+    "maps": [
+        {
+            "name": "Save",
+            "id": "87672107-05ad-488b-9821-5b656104ff90",
+            "actions": [
+                {
+                    "name": "SaveButton",
+                    "type": "Button",
+                    "id": "ba80111a-d612-494f-b61c-47db6bbb8061",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7b385578-15b1-4170-98d1-3dfbd1300cb1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SaveButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

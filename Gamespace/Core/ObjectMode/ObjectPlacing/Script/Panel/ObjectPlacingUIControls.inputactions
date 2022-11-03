@@ -1,0 +1,107 @@
+{
+    "name": "ObjectPlacingUIControls",
+    "maps": [
+        {
+            "name": "SelectionPanel",
+            "id": "ee177bb6-b9c0-48bc-beec-e240bb8435a7",
+            "actions": [
+                {
+                    "name": "Open",
+                    "type": "Button",
+                    "id": "ef7bf415-0ee6-4682-afd3-a27efdc972ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Close",
+                    "type": "Button",
+                    "id": "67097990-84d7-4ea9-a6a2-7f3cb026d7f4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CatergoryMoveRight",
+                    "type": "Button",
+                    "id": "313bb63c-00ca-4358-af73-c9b030965575",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CatergoryMoveLeft",
+                    "type": "Button",
+                    "id": "1a159142-7913-46f9-ba54-b9f752511618",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ff03108d-2d96-4f65-9f71-9832565f4b5f",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9169db9-fcc8-4e9a-934a-4f29f59376b4",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Close",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "89f0bdcb-99b4-4883-a4a6-343cf3680a69",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "CatergoryMoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd815c24-9a9b-41dd-803c-bedd0d52f80a",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "CatergoryMoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

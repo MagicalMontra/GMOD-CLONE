@@ -1,0 +1,115 @@
+{
+    "name": "ObjectElevationControls",
+    "maps": [
+        {
+            "name": "Elevation",
+            "id": "965820be-fede-45a5-9968-169a1241845a",
+            "actions": [
+                {
+                    "name": "Elevate/Descend",
+                    "type": "Value",
+                    "id": "cc9de544-6e37-4a6b-b295-8f84b23bd02b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PowerElevate/DescendModifier",
+                    "type": "Button",
+                    "id": "d7c462d8-6e09-4572-ba36-4e8fb2857161",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7f0ebdbc-b1dc-4fda-a7e3-a96672267b57",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Elevate/Descend",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4dc9036e-e034-4554-8284-a5331d81b548",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "PowerElevate/DescendModifier",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Other",
+            "id": "e43b70bb-a833-4655-9234-228cff130f62",
+            "actions": [
+                {
+                    "name": "Exit",
+                    "type": "Button",
+                    "id": "e00e8e4d-aafd-4803-b4d6-4423ace1f07f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "81b838d2-fe6c-465b-92df-7449b0c5b61b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a3bf6de1-d17b-4f4c-a08c-98d175a1390f",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f0c22c2f-f527-4d04-b117-f7021c9b439f",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

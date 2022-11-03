@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22f7a56bcc9d7944b43a57e3b9d8e01, type: 3}
+  m_Name: Localisation Settings
+  m_EditorClassIdentifier: 
+  defaultLanguage:
+    name: th-TH
+    wordWrapDatabase: {fileID: 4900000, guid: 56fb97636093e594fa1aeaa97e4a03d1, type: 3}
+  avaliableLanguages:
+  - name: en-US
+    wordWrapDatabase: {fileID: 0}
+  - name: th-TH
+    wordWrapDatabase: {fileID: 4900000, guid: 56fb97636093e594fa1aeaa97e4a03d1, type: 3}
+  clusters:
+  - {fileID: 11400000, guid: e1fda12f3d4344d4faf692792932b2ed, type: 2}
+  - {fileID: 11400000, guid: f0270786395d7864db5b991453f9b550, type: 2}
+  - {fileID: 11400000, guid: 4bb1b22f07eb2384fb03b156d49618ea, type: 2}
+  - {fileID: 11400000, guid: 22df1c5e13e5fd5449d409584fa66398, type: 2}
+  - {fileID: 11400000, guid: 579f7943769ecb74a8b3fa30ab933983, type: 2}
+  - {fileID: 11400000, guid: 7fc30c0f3c83fdb45b7d06ea06d7b037, type: 2}
+  - {fileID: 11400000, guid: c2925f3ab9affbb418952471195b3ee6, type: 2}

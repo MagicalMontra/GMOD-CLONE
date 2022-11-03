@@ -1,0 +1,27 @@
+{
+    "name": "Gamespace.Core.Actions.PlayModeTests.Infrastructure",
+    "rootNamespace": "Gamespace.Core.Actions.PlayModeTests.Infrastructure",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Zenject",
+        "Zenject-TestFramework",
+        "UniTask",
+        "nanoid",
+        "Gamespace.Utilis",
+        "Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Gamespace.UI",
+    "rootNamespace": "Gamespace.UI",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:ff218ee40fe2b8648ab3234d56415557",
+        "GUID:cf70f7130313fd44480e4aef7bf59aaf",
+        "GUID:d6238791c6109e54dad90b5f85ba30aa",
+        "GUID:c13785c08c18a544e9923193f35d8915"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

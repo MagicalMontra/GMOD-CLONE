@@ -1,0 +1,52 @@
+{
+    "name": "QuestInput",
+    "maps": [
+        {
+            "name": "Quest",
+            "id": "cdaf2cc1-114b-4efa-9acc-5858f517525c",
+            "actions": [
+                {
+                    "name": "OpenQuest",
+                    "type": "Button",
+                    "id": "b6d64dc3-37a6-4d49-afca-1875dab25271",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CloseQuest",
+                    "type": "Button",
+                    "id": "72e6c653-ed9a-4f34-9859-362d8c056c7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0cd51dc5-bc5c-4fec-bdba-6f3cad541cb9",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenQuest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23b51874-c2bc-4c6a-b78d-e76096901854",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseQuest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

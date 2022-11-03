@@ -1,0 +1,64 @@
+{
+    "name": "GameModeKeyMap",
+    "maps": [
+        {
+            "name": "Editor",
+            "id": "3036c263-ae80-412b-a36d-a5fda5b79429",
+            "actions": [
+                {
+                    "name": "PlayMode",
+                    "type": "Button",
+                    "id": "0ba530d0-cb7b-45b7-b528-b6b560894da4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SwitchEditorMode",
+                    "type": "Button",
+                    "id": "aff55a5f-96d0-467c-a16b-973180057420",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bf80235b-8032-4e67-8953-1fa6d4e9f9c2",
+                    "path": "<Keyboard>/f10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "PlayMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1663b1e8-90aa-473b-bfe7-1857cbdf4bcc",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "SwitchEditorMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52323dabc014407faea92c6d7b000aff, type: 3}
+  m_Name: Math
+  m_EditorClassIdentifier: 
+  catName: Math
+  _datas:
+  - name: MultipiyObject
+    prefab: {fileID: 6690734942081369911, guid: 54840b639444334409e1f45b6b2b134a, type: 3}
+    icon: {fileID: 2800000, guid: ca7de286ba8b3b74d80c1207d993f8f1, type: 3}
+  - name: AdditionObject
+    prefab: {fileID: 427457158247850635, guid: a31ad1eafe020f443a6447198cd4e3e9, type: 3}
+    icon: {fileID: 2800000, guid: 062082203510cba40b9897592e817c00, type: 3}
+  - name: DivideObject
+    prefab: {fileID: 6321769796525136887, guid: 82219740e3656184183b9f2adf3fe0f6, type: 3}
+    icon: {fileID: 2800000, guid: fc657d412863291439d8c430ec3c9e8e, type: 3}
+  - name: SubtractionObject
+    prefab: {fileID: 2243673552867916546, guid: 8bad30e77aea1974f9f51cce284464fb, type: 3}
+    icon: {fileID: 2800000, guid: bc58c6d1cdbc87d48a8fda7f9399955c, type: 3}
+  - name: NumbericObject
+    prefab: {fileID: 2849397190865359553, guid: 9210e1d083273014598e66ed01aaac2d, type: 3}
+    icon: {fileID: 2800000, guid: fe9839e9532196f47821b462c20e70ca, type: 3}

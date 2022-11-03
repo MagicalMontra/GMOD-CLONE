@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4952251b954e098a6cc78f5cd5df23, type: 3}
+  m_Name: LoadingScreenInstaller
+  m_EditorClassIdentifier: 
+  _settings:
+    loadingScreenPrefab: {fileID: 7464318779918497697, guid: 4e0997801d8f7144291940525e098315, type: 3}

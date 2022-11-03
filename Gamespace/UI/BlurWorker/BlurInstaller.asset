@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47ddb3be4154b6cab58833dbbb248df, type: 3}
+  m_Name: BlurInstaller
+  m_EditorClassIdentifier: 
+  _settings:
+    blurConfigs:
+    - {fileID: 11400000, guid: bb5b0e2de6e149c43be542dcdb91ede9, type: 2}

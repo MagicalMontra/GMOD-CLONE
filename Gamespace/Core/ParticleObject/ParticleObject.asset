@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52323dabc014407faea92c6d7b000aff, type: 3}
+  m_Name: ParticleObject
+  m_EditorClassIdentifier: 
+  catName: ParticleObject
+  _datas:
+  - name: Explosion LandMine
+    prefab: {fileID: 5337218010152968817, guid: 9dd9a94c93240a8408384c5fd0b6d706, type: 3}
+    icon: {fileID: 2800000, guid: 5e380ca035f28684484d7cf621eecf6b, type: 3}
+  - name: Explosion Simple
+    prefab: {fileID: 740502264660947584, guid: d626197b2fb251049a8a79fbb9b34580, type: 3}
+    icon: {fileID: 2800000, guid: 0496e1f9cb3657a498b900ccf219f73d, type: 3}
+  - name: Explosion Small
+    prefab: {fileID: 7144846656601081097, guid: 863d21abc2935334d93c6b82297e9c4e, type: 3}
+    icon: {fileID: 2800000, guid: 6c8d3346db534eb4ebe2abf7214fbc97, type: 3}
+  - name: Explosion StarSmoke
+    prefab: {fileID: 1491600457762027896, guid: 354f67c936f71e945b6f69091295ac4f, type: 3}
+    icon: {fileID: 2800000, guid: 73af4ca45b82af249ba4e7785cf08ef5, type: 3}
+  - name: Explosion
+    prefab: {fileID: 7792365198541802197, guid: 3247a8d075f91eb4aac4e84dd00955b4, type: 3}
+    icon: {fileID: 2800000, guid: 84e0a7d164a621c4d88e1052f8dfea0d, type: 3}
+  - name: ExplosiveSmoke Big Alt
+    prefab: {fileID: 5374651780206806666, guid: 58cf42c98fe87f24aaa38b677b4a13cf, type: 3}
+    icon: {fileID: 2800000, guid: 139eb1711ee9f3a4a9b1eb4e3eb78a49, type: 3}
+  - name: ExplosiveSmoke Big
+    prefab: {fileID: 7608008145521158126, guid: ac363c3e32f802743916b2b69663ef2e, type: 3}
+    icon: {fileID: 2800000, guid: db8932c079dd4f34e847b0a87007122f, type: 3}
+  - name: ExplosiveSmoke Small
+    prefab: {fileID: 8705925543936876185, guid: 9a1b0a0e3c0169f44a98fa8cae2f2ffc, type: 3}
+    icon: {fileID: 2800000, guid: 442a5f2260e1ef14c8fa0a2a7ea23c9d, type: 3}
+  - name: ExplosiveSmoke
+    prefab: {fileID: 4975841915796820922, guid: 96be73144db132e4caccd6fad141b23e, type: 3}
+    icon: {fileID: 2800000, guid: 71d241de27872a54e8eafcae34a273e3, type: 3}
+  - name: ExplosiveSmokeGround Big Alt
+    prefab: {fileID: 908088313146699108, guid: df5de9438c3f8aa4f9d80d82da11c4e9, type: 3}
+    icon: {fileID: 2800000, guid: 69364cc95bc8504459a21ac547ac8ae2, type: 3}
+  - name: ExplosiveSmokeGround Big
+    prefab: {fileID: 1809150904980101052, guid: 836bb39178dd5ac4e93c7dfb1f7b104b, type: 3}
+    icon: {fileID: 2800000, guid: 26fc27ba4fb1f524a999c556c671fc01, type: 3}
+  - name: ExplosiveSmokeGround Small
+    prefab: {fileID: 8212751404705886117, guid: 5a9f5b1c953b7bf4484e45585803ae15, type: 3}
+    icon: {fileID: 2800000, guid: 1d5401429f7bf7f4da999870093c60b8, type: 3}
+  - name: ExplosiveSmokeGround
+    prefab: {fileID: 701321075588048563, guid: fe2634693251b624c8d125f0929cbbe5, type: 3}
+    icon: {fileID: 2800000, guid: 8e1c2847c4cb9464fa045888bea24f0a, type: 3}
+  - name: Nuke
+    prefab: {fileID: 7791133915763777885, guid: eaca5bbadfa72084da2456501ebd661e, type: 3}
+    icon: {fileID: 2800000, guid: 172f5be1472e113419ed0c8ca616e69c, type: 3}

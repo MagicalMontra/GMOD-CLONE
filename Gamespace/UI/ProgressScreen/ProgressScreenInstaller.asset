@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5586263633384343ba7a5a84f5c11b17, type: 3}
+  m_Name: ProgressScreenInstaller
+  m_EditorClassIdentifier: 
+  _settings:
+    progressScreenPrefab: {fileID: 7248983723564851029, guid: 0a5b7db130e724242a2b02d1db7de198, type: 3}

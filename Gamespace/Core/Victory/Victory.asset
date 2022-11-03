@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52323dabc014407faea92c6d7b000aff, type: 3}
+  m_Name: Victory
+  m_EditorClassIdentifier: 
+  catName: Victory
+  _datas:
+  - name: VictoryObject
+    prefab: {fileID: 5284689361714130227, guid: f59c788efc6df8f46a4addda7545a4f3, type: 3}
+    icon: {fileID: 2800000, guid: 8661b68f57aa58646908e36606f1ac14, type: 3}
+  - name: ShowGaugeObject
+    prefab: {fileID: 2673165076495928075, guid: daf4b3d0098c2ef4b9f73a2f30808920, type: 3}
+    icon: {fileID: 2800000, guid: 0fade5debe63d2d4da8febeae6571459, type: 3}

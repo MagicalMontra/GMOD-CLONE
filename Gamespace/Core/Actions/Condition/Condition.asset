@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52323dabc014407faea92c6d7b000aff, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  catName: Condition
+  _datas:
+  - name: FloatConditionObject
+    prefab: {fileID: 7794712727042892291, guid: eaa186881fb5ba54c819d910bea0e68c, type: 3}
+    icon: {fileID: 2800000, guid: cec2bf1766617a34eb631b14990246e8, type: 3}

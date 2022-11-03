@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a363bcd38ba779c4f8b8ddbbaef27b92, type: 3}
+  m_Name: RoomData
+  m_EditorClassIdentifier: 
+  roomDetails:
+  - roomPrefab: {fileID: 4601606546559084251, guid: 6a46f8e373a867d449014b4fa77c945f, type: 3}
+    roomIcon: {fileID: 21300000, guid: ed53fcab4edaa1d42b575e4c43838b6c, type: 3}
+  - roomPrefab: {fileID: 2093761499261240723, guid: 109e012aed96744468f6e40ff696888e, type: 3}
+    roomIcon: {fileID: 21300000, guid: 6d9245d7b09c32e4792c1f9f8becc3c3, type: 3}
+  - roomPrefab: {fileID: 1867468628624373445, guid: fb56676b8fe9d1543b149b9cb8bc35f7, type: 3}
+    roomIcon: {fileID: 21300000, guid: 5ddd960512a0c1b49b898102378c5820, type: 3}
+  - roomPrefab: {fileID: 1669350020777212373, guid: 184c24a6454360e4bb2504f75a04e820, type: 3}
+    roomIcon: {fileID: 21300000, guid: 60a56b6fac10cf54997cb9dfe3b561fc, type: 3}
+  - roomPrefab: {fileID: 7826081858653091884, guid: d5ffd233f44a93947ad429e87d252fac, type: 3}
+    roomIcon: {fileID: 21300000, guid: fa6bc97c03c62e24990cfbe0e3af363c, type: 3}
+  - roomPrefab: {fileID: 7997788265286426053, guid: f253f9908b1b8f74fb7332e2e2930797, type: 3}
+    roomIcon: {fileID: 21300000, guid: cfa83edd5983b4d4aa02b2455df79b80, type: 3}
+  - roomPrefab: {fileID: 4949710703082621063, guid: 00b89f7093a9e9f42b66f3083dc56d6a, type: 3}
+    roomIcon: {fileID: 21300000, guid: 67726b18fab9ea847a9475bd06ab1de7, type: 3}
+  - roomPrefab: {fileID: 8672943914324846468, guid: 0aa3a1e85e57fe04eb5b962f0c1b97fd, type: 3}
+    roomIcon: {fileID: 21300000, guid: 33d99522fd4fcfb4d9f5a3db02c88db0, type: 3}
+  - roomPrefab: {fileID: 882656711737151608, guid: 1b1861df310c86b468425ab732f2c47a, type: 3}
+    roomIcon: {fileID: 21300000, guid: 484058666aba30d41b1d18afa018b9b1, type: 3}
